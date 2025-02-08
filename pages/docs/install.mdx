@@ -9,7 +9,7 @@ import { Tabs, Callout } from "nextra/components";
 <Tabs items={["手动安装", "WinGet"]}>
 <Tabs.Tab>
 
-Mihomo Party 提供安装版和便携版两种安装方式
+Mihomo Purity 提供安装版和便携版两种安装方式
 
 安装版下载 exe 安装包，双击安装即可
 
@@ -20,10 +20,10 @@ Mihomo Party 提供安装版和便携版两种安装方式
 <Callout type="info">
 由于WinGet仓库需要审核，所以更新会有一两天的延迟，版本滞后是正常现象
 </Callout>
-Mihomo Party 还可以通过 WinGet 安装
+Mihomo Purity 还可以通过 WinGet 安装
 
 ```shell
-winget install mihomo-party
+winget install mihomo-purity
 ```
 
 </Tabs.Tab>
@@ -39,36 +39,36 @@ winget install mihomo-party
 如果在 `隐私与安全性` 中找不到以上选项，或启动时提示文件损坏。打开 `Terminal.app`，并输入以下命令，然后重启应用即可：
 
 ```bash
-sudo xattr -r -d com.apple.quarantine /Applications/Mihomo\ Party.app
+sudo xattr -r -d com.apple.quarantine /Applications/Mihomo\ Purity.app
 ```
 
 </Callout>
 <Tabs items={["手动安装", "Homebrew"]}>
 <Tabs.Tab>
 
-下载 dmg 包，双击打开后将 Mihomo Party 拖入 Applications 中即可
+下载 dmg 包，双击打开后将 Mihomo Purity 拖入 Applications 中即可
 
 </Tabs.Tab>
 <Tabs.Tab>
 
-Mihomo Party 还可以通过 Homebrew 安装
+Mihomo Purity 还可以通过 Homebrew 安装
 
-### 添加 Mihomo Party 的 Tap
+### 添加 Mihomo Purity 的 Tap
 
 ```bash
-brew tap mihomo-party/mihomo-party
+brew tap mihomo-purity/mihomo-purity
 ```
 
 ### 安装
 
 ```bash
-brew install --cask mihomo-party
+brew install --cask mihomo-purity
 ```
 
 ### 升级
 
 ```bash
-brew upgrade --cask mihomo-party
+brew upgrade --cask mihomo-purity
 ```
 
 </Tabs.Tab>
@@ -81,7 +81,7 @@ brew upgrade --cask mihomo-party
 下载 deb 包，使用 apt 安装
 
 ```bash
-sudo apt install -y /path/to/mihomo-party-linux-xxx.deb
+sudo apt install -y /path/to/mihomo-purity-linux-xxx.deb
 ```
 
 </Tabs.Tab>
@@ -90,28 +90,28 @@ sudo apt install -y /path/to/mihomo-party-linux-xxx.deb
 
 ```bash
 # rpm
-sudo rpm -ih /path/to/mihomo-party-linux-xxx.rpm
+sudo rpm -ih /path/to/mihomo-purity-linux-xxx.rpm
 # dnf
-sudo dnf install /path/to/mihomo-party-linux-xxx.rpm
+sudo dnf install /path/to/mihomo-purity-linux-xxx.rpm
 # yum
-sudo yum localinstall /path/to/mihomo-party-linux-xxx.rpm
+sudo yum localinstall /path/to/mihomo-purity-linux-xxx.rpm
 ```
 
 </Tabs.Tab>
 <Tabs.Tab>
-通过 [AUR](https://aur.archlinux.org/packages?O=0&K=mihomo-party) 安装
+通过 [AUR](https://aur.archlinux.org/packages?O=0&K=mihomo-purity) 安装
 
 ```bash
 # 源码包
-paru/yay -S mihomo-party
+paru/yay -S mihomo-purity
 # 二进制包
-paru/yay -S mihomo-party-bin
+paru/yay -S mihomo-purity-bin
 # Git 版本源码包
-paru/yay -S mihomo-party-git
+paru/yay -S mihomo-purity-git
 # 使用系统electron的源码包
-paru/yay -S mihomo-party-electron
+paru/yay -S mihomo-purity-electron
 # 使用系统electron的二进制包
-paru/yay -S mihomo-party-electron-bin
+paru/yay -S mihomo-purity-electron-bin
 ```
 
 </Tabs.Tab>

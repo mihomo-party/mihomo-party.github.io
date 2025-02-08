@@ -1,17 +1,16 @@
 import React from "react";
 import Logo from "./components/logo";
-import { FaTelegramPlane } from "react-icons/fa";
 import { DocsThemeConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
   useNextSeoProps: () => ({
-    titleTemplate: "%s - Mihomo Party - 一个更易用的客户端",
+    titleTemplate: "%s - Mihomo Purity - 一个更纯净的 Mihomo Party 代理客户端",
   }),
   logo: <Logo style={{ height: "24px" }} />,
   docsRepositoryBase:
-    "https://github.com/mihomo-party/mihomo-party.github.io/edit/master",
+    "https://github.com/mihomo-purity/mihomo-purity.github.io/edit/master",
   project: {
-    link: "https://github.com/mihomo-party/mihomo-party",
+    link: "https://github.com/mihomo-purity/mihomo-purity",
   },
   feedback: {
     content: undefined,
@@ -34,7 +33,7 @@ const config: DocsThemeConfig = {
   },
   darkMode: true,
   footer: {
-    text: "GPL-3.0 © mihomo-party.",
+    text: "GPL-3.0 © mihomo-purity.",
   },
 };
 
