@@ -9,9 +9,9 @@ const config: DocsThemeConfig = {
   }),
   logo: <Logo style={{ height: "24px" }} />,
   docsRepositoryBase:
-    "https://github.com/mihomo-party-org/mihomo-party-docs/edit/master",
+    "https://github.com/mihomo-party/mihomo-party.github.io/edit/master",
   project: {
-    link: "https://github.com/mihomo-party-org/mihomo-party",
+    link: "https://github.com/mihomo-party/mihomo-party",
   },
   feedback: {
     content: undefined,
@@ -33,10 +33,6 @@ const config: DocsThemeConfig = {
     },
   },
   darkMode: true,
-  chat: {
-    icon: <FaTelegramPlane style={{ fontSize: 24 }} />,
-    link: "https://t.me/mihomo_party_group",
-  },
   footer: {
     text: "GPL-3.0 © mihomo-party.",
   },
